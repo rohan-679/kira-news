@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>News Cards</title>
+</head>
+<body>
+    <div class="news-container">
+        <div class="news-heading">
+            <h1>PRESS NEWS</h1>
+        </div>
+        <div class="news-cards">
+            <div class="box" data-aos="zoom-in-up" data-aos-duration='3000'>
+                <div class="imgBx">
+                    <img src="img/1.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Learn More</h2>
+                    <p>KIRA esports from India <br> defeat Japanese Powerhouse <br> Cyclops athlete gaming in <br> opening
+                        match of R6 APAC
+                        Playoffs</p>
+                    <a href="https://esportz.in/kira-esports-defeat-cyclops-athlete-gaming-r6-apac-playoffs">Read More</a>
+                
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-duration='2000'>
+                <div class="imgBx">
+                    <img src="img/2.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Learn More</h2>
+                    <p>Asia-Pacific League 2021 - <br> Playoffs - Stage 1: KIRA E-Sports <br> pull off a shocking victory
+                        <br> against CYCLOPS Athlete <br> Gaming in the Rainbow Six <br> Siege Tournament
+                    </p>
+                    <a href="https://www.sportskeeda.com/esports/asia-pacific-league-2021-playoffs-stage-1-kira-e-sports-pull-shocking-victory-cyclops-athlete-gaming-rainbow-six-siege-tournament">Read More</a>
+                
+                </div>
+            </div>
+            <div class="box" data-aos="zoom-in-up" data-aos-duration='3000'>
+                <div class="imgBx">
+                    <img src="img/3.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Learn More</h2>
+                    <p>South Asia Nationals 2021: <br> MrcZ & KIRA to Face <br> Knights & CAG in APAC <br> Playoffs</p>
+                    <a href="https://siege.gg/news/2128-south-asia-nationals-2021-mrcz-kira-to-face-knights-cag-in-apac-playoffs">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1200
+            });
+        });
+    </script>
+    <script>
+
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+</body>
+</html>
